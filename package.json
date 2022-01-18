@@ -14,9 +14,10 @@
     "url": "git://github.com/coderaiser/speca.git"
   },
   "keywords": [
-    "coverage",
+    "test",
     "putout",
-    "loader"
+    "generator",
+    "tape"
   ],
   "scripts": {
     "loader": "madrun loader",
