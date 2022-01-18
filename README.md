@@ -1,13 +1,13 @@
 # Speca [![License][LicenseIMGURL]][LicenseURL] [![NPM version][NPMIMGURL]][NPMURL] [![Build Status][BuildStatusIMGURL]][BuildStatusURL] [![Coverage Status][CoverageIMGURL]][CoverageURL]
 
-[NPMIMGURL]: https://img.shields.io/npm/v/escover.svg?style=flat
-[BuildStatusURL]: https://github.com/coderaiser/escover/actions?query=workflow%3A%22Node+CI%22 "Build Status"
-[BuildStatusIMGURL]: https://github.com/coderaiser/escover/workflows/Node%20CI/badge.svg
+[NPMIMGURL]: https://img.shields.io/npm/v/speca.svg?style=flat
+[BuildStatusURL]: https://github.com/coderaiser/speca/actions?query=workflow%3A%22Node+CI%22 "Build Status"
+[BuildStatusIMGURL]: https://github.com/coderaiser/speca/workflows/Node%20CI/badge.svg
 [LicenseIMGURL]: https://img.shields.io/badge/license-MIT-317BF9.svg?style=flat
-[NPMURL]: https://npmjs.org/package/escover "npm"
+[NPMURL]: https://npmjs.org/package/speca "npm"
 [LicenseURL]: https://tldrlegal.com/license/mit-license "MIT License"
-[CoverageURL]: https://coveralls.io/github/coderaiser/escover?branch=master
-[CoverageIMGURL]: https://coveralls.io/repos/coderaiser/escover/badge.svg?branch=master&service=github
+[CoverageURL]: https://coveralls.io/github/coderaiser/speca?branch=master
+[CoverageIMGURL]: https://coveralls.io/repos/coderaiser/speca/badge.svg?branch=master&service=github
 
 Write [tape](https://github.com/coderaiser/supertape) tests for you.
 ![image](https://user-images.githubusercontent.com/1573141/149833901-c8164810-b321-4555-89a1-bd92224202b5.png)
@@ -22,8 +22,10 @@ npm i speca -g
 
 ## Usage
 
+```sh
 speca feature.js
 // creates a file: feature.spec.js
+```
 
 ## License
 
