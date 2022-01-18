@@ -9,7 +9,8 @@
 [CoverageURL]: https://coveralls.io/github/coderaiser/speca?branch=master
 [CoverageIMGURL]: https://coveralls.io/repos/coderaiser/speca/badge.svg?branch=master&service=github
 
-Write [tape](https://github.com/coderaiser/supertape) tests for you.
+Write [tape](https://github.com/coderaiser/supertape) tests for you. Here is how it looks like:
+
 ![image](https://user-images.githubusercontent.com/1573141/149833901-c8164810-b321-4555-89a1-bd92224202b5.png)
 
 Made from [prototype](https://putout.cloudcmd.io/#/gist/7909855d8c5c58060365f098307d89d5/aa66229c65406c7a2fce7a19a1452fbc1f512eb4).
