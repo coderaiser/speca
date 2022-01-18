@@ -1,0 +1,16 @@
+{
+    "rules": {
+        "node/no-missing-import": "off"
+    },
+    "extends": [
+        "plugin:node/recommended",
+        "plugin:putout/safe+align"
+    ],
+    "plugins": [
+        "putout",
+        "node"
+    ],
+    "ignorePatterns": [
+        "fixture"
+    ]
+}

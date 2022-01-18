@@ -1,0 +1,191 @@
+2022.01.18, v1.7.2
+
+feature:
+- escover: config: isExclude: add ability to drop stars
+
+
+2022.01.17, v1.7.1
+
+fix:
+- escover: config: rm once
+
+
+2022.01.17, v1.7.0
+
+feature:
+- escover: add ability to read config
+
+
+2022.01.17, v1.6.0
+
+feature:
+- escover: add sorting
+
+
+2022.01.17, v1.5.2
+
+fix:
+- escover: add ability to override ZENLOAD && NODE_OPTIONS
+
+
+2022.01.17, v1.5.1
+
+feature:
+- escover: add lines %
+
+
+2022.01.17, v1.5.0
+
+feature:
+- escover: add formatter table
+
+
+2022.01.15, v1.4.1
+
+feature:
+- escover: coverage -> coverage-file
+
+
+2022.01.15, v1.4.0
+
+feature:
+- escover: add ability to preserve fileEntries
+
+
+2022.01.15, v1.3.4
+
+fix:
+- escover: rm useless import
+
+
+2022.01.15, v1.3.3
+
+feature:
+- escover: exclude not from current path
+
+
+2022.01.15, v1.3.2
+
+fix:
+- escover: rm console.log
+
+
+2022.01.15, v1.3.1
+
+fix:
+- escover: do not write coverage when empty
+
+feature:
+- escover: add ability to get coverage of itself
+
+
+2022.01.15, v1.3.0
+
+feature:
+- escover: exclude test
+- escover: config -> coverage
+
+
+2022.01.15, v1.2.3
+
+fix:
+- escover: mock-import: devDependency -> dependency
+
+
+2022.01.15, v1.2.2
+
+feature:
+- escover: add mock-import
+
+
+2022.01.14, v1.2.1
+
+feature:
+- escover: exclude .spec.mjs
+
+
+2022.01.14, v1.2.0
+
+fix:
+- feature: escover: exclude fixture, .madrun.js
+
+feature:
+- escover: exclude fixture, .madrun.js
+
+
+2022.01.14, v1.1.6
+
+fix:
+- npmignore: add fixture
+
+
+2022.01.14, v1.1.5
+
+fix:
+- escover: set zenload as dependency
+
+
+2022.01.13, v1.1.4
+
+feature:
+- (package) eslint-plugin-putout v13.0.1
+- (package) putout v24.0.2
+
+
+2022.01.11, v1.1.3
+
+fix:
+- escover: rm unused
+
+
+2022.01.11, v1.1.2
+
+fix:
+- escover: get back running support
+
+
+2022.01.11, v1.1.1
+
+feature:
+-  escover: bin only shows report
+
+
+2022.01.11, v1.1.0
+
+feature:
+- (escover) add bin
+
+
+2022.01.08, v1.0.5
+
+feature:
+- escover: report
+
+
+2022.01.08, v1.0.4
+
+feature:
+- escover: add support of AssignmentExpression
+
+
+2022.01.08, v1.0.3
+
+feature:
+- escover: plugin-mark: add support ot ThrowStatement
+- escover: add merger
+
+
+2022.01.08, v1.0.2
+
+fix:
+- escover: impove support of AssignmentPattern
+
+feature:
+- escover: plugin-mark-line -> plugin-mark
+
+
+2022.01.08, v1.0.1
+
+fix:
+- c4 -> escover
+

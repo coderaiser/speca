@@ -1,0 +1,10 @@
+{
+    "match": {
+        "{formatters,cli}": {
+            "remove-console": "off"
+        }
+    },
+    "rules": {
+        "putout": "on"
+    }
+}

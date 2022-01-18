@@ -1,0 +1,65 @@
+{
+  "name": "speca",
+  "version": "1.0.0",
+  "author": "coderaiser <mnemonic.enemy@gmail.com> (https://github.com/coderaiser)",
+  "description": "Generate TAP tests for you code",
+  "main": "lib/speca.js",
+  "type": "module",
+  "commitType": "colon",
+  "bin": {
+    "speca": "bin/speca.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coderaiser/speca.git"
+  },
+  "keywords": [
+    "coverage",
+    "putout",
+    "loader"
+  ],
+  "scripts": {
+    "loader": "madrun loader",
+    "test": "madrun test",
+    "test:only": "madrun test:only",
+    "coverage": "madrun coverage",
+    "c4": "madrun c4",
+    "lint": "madrun lint",
+    "fresh:lint": "madrun fresh:lint",
+    "lint:fresh": "madrun lint:fresh",
+    "fix:lint": "madrun fix:lint",
+    "report": "madrun report",
+    "watcher": "madrun watcher",
+    "watch:test": "madrun watch:test",
+    "watch:lint": "madrun watch:lint",
+    "watch:tape": "madrun watch:tape",
+    "watch:coverage": "madrun watch:coverage"
+  },
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "find-up": "^6.2.0",
+    "mock-import": "^2.11.1",
+    "montag": "^1.2.1",
+    "once": "^1.4.0",
+    "picomatch": "^2.3.1",
+    "putout": "^24.0.2",
+    "table": "^6.8.0",
+    "try-catch": "^3.0.0",
+    "yargs-parser": "^21.0.0",
+    "zenload": "^1.4.0"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@putout/test": "^4.1.0",
+    "c8": "^7.8.0",
+    "escover": "^1.0.0",
+    "eslint": "^8.3.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-putout": "^13.0.1",
+    "madrun": "^8.8.1",
+    "supertape": "^6.0.5"
+  }
+}
