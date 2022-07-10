@@ -23,7 +23,7 @@ jobs:
         run: npm i
      
       - name: Lint
-        run: redrun lint
+        run: npm run lint
     
       - uses: actions-rs/toolchain@v1
         with:
