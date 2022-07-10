@@ -9,7 +9,7 @@
 [CoverageURL]: https://coveralls.io/github/coderaiser/speca?branch=master
 [CoverageIMGURL]: https://coveralls.io/repos/coderaiser/speca/badge.svg?branch=master&service=github
 
-Writes [tape](https://github.com/coderaiser/supertape) tests for you using 🐊[Putout](https://github.com/coderaiser/putout). Here is how it looks like:
+Writes 📼[Supertape](https://github.com/coderaiser/supertape) tests for you using 🐊[Putout](https://github.com/coderaiser/putout). Here is how it looks like:
 
 ![image](https://user-images.githubusercontent.com/1573141/149833901-c8164810-b321-4555-89a1-bd92224202b5.png)
 
