@@ -24,8 +24,29 @@ npm i speca -g
 ## Usage
 
 ```sh
-speca feature.js
-// creates a file: feature.spec.js
+speca sum.js
+// creates a file: sum.spec.js
+```
+
+Input `sum.js`:
+
+```js
+export const sum = (a, b) => a + b;
+```
+
+Output `sum.spec.js`:
+
+```js
+import {test} from 'supertape';
+import {sum} from './sum.js';
+
+test('name: sum', t => {
+  const result = sum('a', 'b');
+  const expected = '';
+  
+  t.equal(result, expected);
+  t.end();
+});
 ```
 
 ## License
