@@ -40,12 +40,12 @@ Output `sum.spec.js`:
 import {test} from 'supertape';
 import {sum} from './sum.js';
 
-test('name: sum', t => {
-  const result = sum('a', 'b');
-  const expected = '';
-  
-  t.equal(result, expected);
-  t.end();
+test('name: sum', (t) => {
+    const result = sum('a', 'b');
+    const expected = '';
+    
+    t.equal(result, expected);
+    t.end();
 });
 ```
 
