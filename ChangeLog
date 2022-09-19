@@ -1,3 +1,12 @@
+2022.09.19, v2.0.2
+
+fix:
+- speca: cli
+
+feature:
+- package: escover v2.5.0
+- package: supertape v8.1.0
+
 2022.07.20, v2.0.1
 
 feature:
