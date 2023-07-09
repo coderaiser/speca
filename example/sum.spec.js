@@ -8,4 +8,3 @@ test('name: sum', (t) => {
     t.equal(result, expected);
     t.end();
 });
-

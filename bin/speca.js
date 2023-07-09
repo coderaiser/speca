@@ -13,4 +13,3 @@ cli({
     readFileSync,
     writeFileSync,
 });
-
