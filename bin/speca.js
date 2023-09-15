@@ -4,7 +4,8 @@ import {cli} from '../lib/cli/cli.js';
 import {
     readFileSync,
     writeFileSync,
-} from 'fs';
+} from 'node:fs';
+import process from 'node:process';
 
 cli({
     log: console.log,
