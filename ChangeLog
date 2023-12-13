@@ -1,3 +1,16 @@
+2023.12.13, v3.0.0
+
+feature:
+- c09d2a3 speca: mock-import v4.0.2
+- 57fda06 speca: madrun v10.0.0
+- 4718b98 speca: eslint-plugin-putout v22.1.0
+- 98d507b speca: drop support of node < 18
+- 244f6e4 speca: @putout/test v8.0.0
+- c92aa97 speca: escover v4.0.1
+- d926bee speca: putout v34.0.9
+- c0c1808 speca: supertape v9.0.0
+- 84637c8 package: eslint-plugin-putout v20.0.0
+
 2023.09.15, v2.2.1
 
 feature:
